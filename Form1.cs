@@ -92,7 +92,7 @@ namespace ChessKing
 
 		private void btnPlay_Click(object sender, EventArgs e)
 		{
-			//load piece on Board 
+			
 			Chess tempChess;
 
 			//pawn
@@ -105,7 +105,6 @@ namespace ChessKing
 					Board[1, i].Chess = tempChess;
 					Board[1, i].Image = Image.FromFile(linkBlackPawn);
 					Board[1, i].Chess.Evaluation = -10;
-
 				}
 				else
 				{
